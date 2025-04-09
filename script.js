@@ -15,7 +15,7 @@ const content = document.getElementById("content");
 
 function showIntro() {
   content.innerHTML = `
-    <p>Welcome to the Toxicity Game. Are you a toxic partner?
+    <p>Welcome to the Toxicity Game. Are you a toxic Boyfriend?
     Answer these few questions to find out.</p>
     <button class="button yes" onclick="showQuestion()">Start</button>
   `;
